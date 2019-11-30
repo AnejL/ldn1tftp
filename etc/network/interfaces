@@ -1,0 +1,19 @@
+auto lo
+iface lo inet loopback
+
+auto ens3
+iface ens3 inet dhcp
+
+auto enp0s3
+iface enp0s3 inet dhcp
+
+auto ens4
+iface ens4 inet static
+    address 10.98.209.146
+    netmask 255.192.0.0
+
+auto enp0s8
+iface enp0s8 inet static
+    address 172.30.129.70
+    netmask 255.255.255.192
+    
